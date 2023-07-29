@@ -32,13 +32,13 @@ body{
 
 }
 main{
-    width:375px;
+    width:400px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     background-color: var(--grayish-blue);
-    padding: 1rem;
+    padding: 2rem 1.5rem;
     border-radius: 1rem;
     position: relative;
 }
@@ -46,6 +46,8 @@ h1{
     font-size: 1rem;
     color: var(--neon);
     font-weight: 800;
+    letter-spacing: 4px;
+    text-transform: uppercase;
 }
 blockquote{
     padding: 1rem 0;
