@@ -94,9 +94,4 @@ background-color: transparent;
       transform: rotate(359deg);
     }
   }
-@media screen and (min-width:1440px) {
-    main{
-width: 480px;
-    }
-    
-}
+
