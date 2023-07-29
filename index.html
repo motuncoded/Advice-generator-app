@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Advice generator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <main><!-- Advice ID goes here -->
+    <h1> Advice #<span id="adviceId">11</span></h1>
+    <blockquote cite="https://api.adviceslip.com/advice">
+      <q id ="quote"> "It is easy to sit up and take notice, what's difficult is getting up
+        and taking action." </q>
+    </blockquote>
+    <picture class="divider">
+      <source
+        class="desktop"
+        media="(min-width: 601px)"
+        srcset="images/pattern-divider-desktop.svg"
+      />
+      <source
+        class="mobile"
+        media="(max-width: 550px)"
+        srcset="images/pattern-divider-mobile.svg"
+      />
+      <img
+        class="line"
+        src="images/pattern-divider-desktop.svg"
+        alt="Icon divider"
+      />
+    </picture>
+    <div class="button-container">
+        <button class="advice_btn">
+      <img src="/images/icon-dice.svg" alt="icon-dice" width="15px"/>
+    </button>
+    </div>
+  
+    
+  </main>
+
+ 
+  <script src="js/main.js" defer></script>
+
+  
+  <!--<div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>!-->
+</body>
+
+</html>
