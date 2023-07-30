@@ -29,6 +29,8 @@ displayRotation()
     adviceId.innerHTML = adviceMessage["id"];
     quote.innerHTML = adviceMessage["advice"];
 
+}).catch(() => {
+    alert("Error fetching!")
 })
 }
 

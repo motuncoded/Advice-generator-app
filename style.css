@@ -58,11 +58,15 @@ blockquote{
     color: var(--light-cyan);
 }
 .divider{
-    padding-bottom:1.8rem;
+    padding-bottom:1.5rem;
 }
 
-
-.button-container{
+button{
+border: 0;
+outline: 0;
+display: flex;
+cursor: pointer;
+background-color: transparent;
 position:absolute ;
 bottom: -20px;
     border-radius: 50%;
@@ -72,16 +76,8 @@ bottom: -20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
-button{
-border: 0;
-outline: 0;
-display: flex;
-cursor: pointer;
-background-color: transparent;
-}
-.button-container:hover{
+button:hover{
     filter: drop-shadow(0 0 0.75rem rgb(82, 255, 168));
     
 }
